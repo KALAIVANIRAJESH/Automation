@@ -55,6 +55,7 @@ public class BaseClass {
 		
 		
 		
+		
 //		if(BROWSER.equalsIgnoreCase("Firefox"))
 //		{
 //			WebDriverManager.firefoxdriver().setup();
