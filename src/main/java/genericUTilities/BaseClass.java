@@ -48,7 +48,10 @@ public class BaseClass {
 	{
 		String URL = pUtil.readDataFromPropertyFile("url");
 		
-		driver = new EdgeDriver();
+		//driver = new EdgeDriver();
+		
+		WebDriverManager.firefoxdriver().setup();
+		driver = new FirefoxDriver();
 		
 //		if(BROWSER.equalsIgnoreCase("Firefox"))
 //		{
